@@ -4,6 +4,17 @@ Return an empty string if num is not a positive number
 */
 
 function repeatStringNumTimes(str, num) {
+  for (var newStr = ""; num > 0; num--) {
+    newStr += str
+  }
+  return newStr;
+}
+
+repeatStringNumTimes("abc", 3);
+
+==============OR===============
+
+function repeatStringNumTimes(str, num) {
   var accumulatedStr = "";
 
   while (num > 0) {
