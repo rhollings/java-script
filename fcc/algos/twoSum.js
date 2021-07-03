@@ -12,5 +12,6 @@ You can return the answer in any order.
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    
+    // for loop for arr of nums
+    //check if 2 nums equal target ? 2 loops ?
 };
