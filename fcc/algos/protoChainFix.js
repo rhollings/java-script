@@ -7,8 +7,17 @@ function Bird(name) {
 
 typeof Bird.prototype;
 
+/*
+Because a prototype is an object, 
+a prototype can have its own prototype! In this case,
+the prototype of Bird.prototype is Object.prototype:
+*/
 
+Object.prototype.isPrototypeOf(Bird.prototype);
 
+/*
+How is this useful? You may recall the hasOwnProperty method from a previous challenge:
+*/
 
 
 /*
