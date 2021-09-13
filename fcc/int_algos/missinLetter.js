@@ -33,4 +33,8 @@ It is checked if code of current character is the expected one
 If a character is missing, the missing character is found and the final string is returned.
 undefined is returned if there is no missing character in the string.
 
+The charCodeAt() method returns the Unicode of the character at the specified index in a string.
+
+The index of the first character is 0, the second character 1, and so on.
+
 */
