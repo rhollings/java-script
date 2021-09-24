@@ -1,4 +1,4 @@
-# java-script
+# JavaScript
 
 
-This will be a folder of interesting scripts i've came across or created with javaScript
+This is a respistory that tracks my knowledge of JavaScript
