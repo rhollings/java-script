@@ -14,7 +14,7 @@ it has access to this value like so:
 
 const Welcome = (props) => <h1>Hello, {props.user}!</h1>
 
-To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
+To pass an /array/ to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
 
 <ParentComponent>
   <ChildComponent colors={["green", "blue", "red"]} />
@@ -26,3 +26,11 @@ Array methods such as join() can be used when accessing the property.
 const ChildComponent = (props) => <p>{props.colors.join(', ')}</p> 
 
 This will join all colors array items into a comma separated string and produce:  <p>green, blue, red</p> 
+
+React also has an option to set /default/ props. You can assign default props to a component as a property
+on the component itself and React assigns the default prop if necessary. 
+This allows you to specify what a prop value should be if no value is explicitly provided.
+For example, if you declare MyComponent.defaultProps = { location: 'San Francisco' }, 
+you have defined a location prop that's set to the string San Francisco, unless you specify otherwise. 
+React assigns default props if props are undefined, but if you pass null as the value for a prop, it will remain null.
+
