@@ -13,3 +13,16 @@ In this case, the created property user is passed to the component Welcome. Sinc
 it has access to this value like so:
 
 const Welcome = (props) => <h1>Hello, {props.user}!</h1>
+
+To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
+
+<ParentComponent>
+  <ChildComponent colors={["green", "blue", "red"]} />
+</ParentComponent>
+
+The child component then has access to the array property colors. 
+Array methods such as join() can be used when accessing the property.
+
+const ChildComponent = (props) => <p>{props.colors.join(', ')}</p> 
+
+This will join all colors array items into a comma separated string and produce:  <p>green, blue, red</p> 
