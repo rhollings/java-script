@@ -14,3 +14,10 @@ ReactDOM offers a simple method to render React elements to the DOM which looks 
 # Components
 
 There are two ways to create a React component. The first way is to use a JavaScript function. Defining a component in this way creates a stateless functional component. think of a stateless component as one that can receive data and render it, but does not manage or track changes to that data.
+
+A stateless functional component is any function you write which accepts props and returns JSX. 
+A stateless component, on the other hand, is a class that extends React.Component, but does not use internal state (covered in the next challenge). 
+Finally, a stateful component is a class component that does maintain its own internal state. You may see stateful components referred to simply as components or React components.
+
+# Props
+
