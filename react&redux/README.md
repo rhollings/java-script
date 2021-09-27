@@ -21,3 +21,5 @@ Finally, a stateful component is a class component that does maintain its own in
 
 # Props
 
+ In React, you can pass props, or properties, to child components. Say you have an App component which renders
+ a child component called Welcome which is a stateless functional component.
