@@ -10,3 +10,25 @@ Note: The this keyword is one of the most confusing aspects of JavaScript but it
 Although its behavior here is totally normal, these lessons aren't the place for an in-depth review of 
 this so please refer to other lessons if the above is confusing!
 
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: "Hello"
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    this.setState({
+      text: "You clicked!"
+    });
+  }
+  render() {
+    return (
+      <div>
+        <button onClick = {this.handleClick}>Click Me</button>
+        <h1>{this.state.text}</h1>
+      </div>
+    );
+  }
+};
