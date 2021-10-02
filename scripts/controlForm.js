@@ -1,0 +1,5 @@
+/*
+The MyForm component is set up with an empty form with a submit handler. The submit handler will be called when the form is submitted.
+
+
+*/
