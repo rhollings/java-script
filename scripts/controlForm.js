@@ -28,7 +28,7 @@ class MyForm extends React.Component {
     });
   }
   handleSubmit(event) {
-    event.preventDefault()
+    event.preventDefault() // for when page refreshes
     this.setState({
       submit: this.state.input
     });
