@@ -23,3 +23,7 @@ Finally, a stateful component is a class component that does maintain its own in
 
  In React, you can pass props, or properties, to child components. Say you have an App component which renders
  a child component called Welcome which is a stateless functional component.
+
+# State less vs full 
+The literal difference is that one has state, and the other doesn't. That means the stateful components are keeping track of changing data,
+while stateless components print out what is given to them via props, or they always render the same thing
