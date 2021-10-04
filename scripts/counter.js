@@ -1,5 +1,5 @@
 /*
-The Counter component keeps track of a count value in state. 
+A Counter component that keeps track of a count value in state. 
 There are two buttons which call methods increment() and decrement().
 Created a reset() method so when the reset button is clicked, the count is set to 0.
 */
