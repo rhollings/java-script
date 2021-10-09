@@ -23,7 +23,6 @@ var lookup = {
 function rot13(encodedStr) {
   var codeArr = encodedStr.split("");  // String to Array
   var decodedArr = []; // Your Result goes here
-  // Only change code below this line
 
   decodedArr = codeArr.map(function(letter) {
     if(lookup.hasOwnProperty(letter)) {
@@ -32,6 +31,5 @@ function rot13(encodedStr) {
     return letter;
   });
 
-  // Only change code above this line
   return decodedArr.join(""); // Array to String
 }
