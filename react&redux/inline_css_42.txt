@@ -9,3 +9,35 @@ It can become difficult to keep track of changes, potentially making your UI unp
 When you set a style object based on a condition, you describe how the UI should look as a function of the application's state.
 There is a clear flow of information that only moves in one direction. This is the preferred method when writing applications with React.
 
+class GateKeeper extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: ''
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange(event) {
+    this.setState({ input: event.target.value })
+  }
+  render() {
+    let inputStyle = {
+      border: '1px solid black'
+    };
+    // Change code below this line
+    if (this.state.input.length > 15) {   <= add if statement to catch length
+      inputStyle.border = '3px solid red'   <= add change if if is true
+    }
+    // Change code above this line
+    return (
+      <div>
+        <h3>Don't Type Too Much:</h3>
+        <input
+          type="text"
+          style={inputStyle}
+          value={this.state.input}
+          onChange={this.handleChange} />
+      </div>
+    );
+  }
+};
