@@ -19,10 +19,14 @@ A stateless functional component is any function you write which accepts props a
 A stateless component, on the other hand, is a class that extends React.Component, but does not use internal state (covered in the next challenge). 
 Finally, a stateful component is a class component that does maintain its own internal state. You may see stateful components referred to simply as components or React components.
 
+# Redux 
+
+Redux is a state management framework that can be used with a number of different web technologies, including React.
+
+
 # Props
 
- In React, you can pass props, or properties, to child components. Say you have an App component which renders
- a child component called Welcome which is a stateless functional component.
+ In React, you can pass props, or properties, to child components.
 
 # State less vs full 
 The literal difference is that one has state, and the other doesn't. That means the stateful components are keeping track of changing data,
