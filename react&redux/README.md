@@ -21,7 +21,8 @@ Finally, a stateful component is a class component that does maintain its own in
 
 # Redux 
 
-Redux is a state management framework that can be used with a number of different web technologies, including React.
+Redux is a state management framework that can be used with a number of different web technologies, including React. 
+The first principle of Redux: all app state is held in a single state object in the store. Therefore, Redux provides reducer composition as a solution for a complex state model.
 
 
 # Props
