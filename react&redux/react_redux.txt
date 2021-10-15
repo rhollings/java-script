@@ -16,15 +16,13 @@ Start with a DisplayMessages component. Add a constructor to this component and 
 that's set to an empty string, and messages, that's set to an empty array.
 
 class DisplayMessages extends React.Component {
-  // Change code below this line
   constructor(props) {
     super(props);
-    this.state = {
+    this.state = { <=== intialized
       input: "",
       messages: []
     }
   }
-  // Change code above this line
   render() {
     return <div />
   }
@@ -141,7 +139,6 @@ class AppWrapper extends React.Component {
       </Provider>
     );
   }
-  // Change code above this line
 };
 
 =========================================================
@@ -177,6 +174,4 @@ class Presentational extends React.Component {
 };
 
 const connect = ReactRedux.connect;
-// Change code below this line
-
 const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps) (Presentational)
