@@ -10,15 +10,8 @@ Valid JSX:
   <p>Paragraph Three</p>
 </div>
 
-
-Invalid JSX:
-
-<p>Paragraph One</p>
-<p>Paragraph Two</p>
-<p>Paragraph Three</p>
- 
 OR
-  
+
 const JSX = 
 <div>
   <h1></h1>
@@ -29,3 +22,11 @@ const JSX =
     <li></li>
   </ul>
 </div>;
+
+
+Invalid JSX:
+
+<p>Paragraph One</p>
+<p>Paragraph Two</p>
+<p>Paragraph Three</p>
+ 
