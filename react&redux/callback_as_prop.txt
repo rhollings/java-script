@@ -53,7 +53,7 @@ class RenderInput extends React.Component {
     return (
       <div>
         <h3>Input Render:</h3>
-        <p>{this.props.input}</p>
+        <p>{this.props.input}</p>  <===
       </div>
     );
   }
