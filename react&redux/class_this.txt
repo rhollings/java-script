@@ -20,13 +20,13 @@ class MyComponent extends React.Component {
   }
   handleClick() {
     this.setState({
-      text: "You clicked!" <=== where the change happens
+      text: "You clicked!" <=== how the change happens
     });
   }
   render() {
     return (
       <div>
-        <button onClick = {this.handleClick}>Click Me</button>
+        <button onClick = {this.handleClick}>Click Me</button> <== where the change happens 
         <h1>{this.state.text}</h1>
       </div>
     );
