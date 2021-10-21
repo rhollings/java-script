@@ -20,7 +20,7 @@ class MyComponent extends React.Component {
   }
   handleClick() {
     this.setState({
-      text: "You clicked!"
+      text: "You clicked!" <=== where the change happens
     });
   }
   render() {
