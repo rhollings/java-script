@@ -69,9 +69,7 @@ class ReturnTempPassword extends React.Component {
   render() {
     return (
         <div>
-            { /* Change code below this line */ }
             <p>Your temporary password is: <strong>{this.props.tempPassword}</strong></p>
-            { /* Change code above this line */ }
         </div>
     );
   }
