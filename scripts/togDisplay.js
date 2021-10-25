@@ -18,7 +18,6 @@ class MyComponent extends React.Component {
     }));
   }
   render() {
-    // Change code below this line
     if (this.state.display) {
       return (<div>
          <button onClick={this.toggleDisplay}>Toggle Display</button>
