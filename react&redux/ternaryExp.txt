@@ -26,7 +26,6 @@ const inputStyle = {
 class CheckUserAge extends React.Component {
   constructor(props) {
     super(props);
-    // Change code below this line
     this.state = {
       input: '',
       userAge: ''
