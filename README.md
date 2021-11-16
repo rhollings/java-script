@@ -1,4 +1,6 @@
 # JavaScript
 
+Repository of JS tips/tricks/skills/etc. that I have learned or am learning.
 
-This is a respistory that tracks my knowledge of JavaScript
+# Links I find useful: 👇
+
