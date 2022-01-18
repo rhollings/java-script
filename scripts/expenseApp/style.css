@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #111;
+}
+
+/* titles */
+.title {
+    width: 500px;
+    margin: 3% auto;
+}
+
+.title_two {
+    text-align: left;
+    margin: 2% 0;
+}
+
+/* content block */
+.content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 3% 3% 3% 6%;
+}
+
+
+/* form */
+.form {
+    padding: 5px;
+}
+
+.formLine {
+    display: inline-flex;
+    padding: 5px 0px;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    margin-right: 100px;
+}
+
+input, select {
+    width: 130px;
+    margin-left: 10px;
+}
+
+/* table */
+table {
+    width: 100%;
+}
+
+thead {
+    line-height: 30px;
+}
+
+/* button */
+button {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 20px;
+    margin: 14px 25%;
+    cursor: pointer;
+}
+
+.buttonSave {
+    background-color: green;
+    color: honeydew;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+}
