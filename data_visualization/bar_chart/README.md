@@ -1,5 +1,5 @@
 ## Data Visualization
-Data Visualization Projects
+
 Visualize Data with a Bar Chart
 Objective: Build a CodePen.io app that is functional.
 
