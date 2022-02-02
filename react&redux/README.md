@@ -1,5 +1,7 @@
 # Learn React & Redux with me
 
+<a href="https://reactnative.dev/docs/getting-started" target="_blank">React Native</a>
+
 In this folder, I will be adding all the code and readings I've came across while learning these tools. 
 Please feel free to add or comment 😊
 
