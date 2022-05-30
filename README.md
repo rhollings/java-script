@@ -7,3 +7,5 @@ Repository of JS tips/tricks/skills/etc. that I have learned or am learning.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank">Re-intro to JavaScript</a>
 
 <a href="https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/" target="_blank">23 Helpful sites to learn JS</a>
+
+<a href="https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html" target="_blank">AWS Best Practices</a>
